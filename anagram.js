@@ -76,7 +76,10 @@ function updateResult() {
     }
 }
 
-// My implementation is not optimally efficient -- every time a user types a
-// letter, the entire anagram check is recalulated.
+// My implementation is not optimally efficient -- every time a user
+// types a letter, the entire anagram check is recalulated. However,
+// testing on my computer revealed there's no observable latency with
+// this implemenation, so I'll stick to it rather than going with
+// something more complex but efficient.
 document.getElementById("phrase1").addEventListener('input', updateResult);
 document.getElementById("phrase2").addEventListener('input', updateResult);
