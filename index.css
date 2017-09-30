@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana;
+    font-size: 15px;
+
+    text-align: center;
+}
+
+.phrase-input {
+    text-align: center;
+
+    font-family: Verdana;
+    font-size: 15px;
+
+    padding: 3px;
+    margin: 3px;
+
+    width: 300px;
+}
+
+.result {
+    display: none;
+    font-weight: bold;
+}
+
+#type {
+    display: block;
+}
+
+#not-anagram {
+    color: red;
+}
+
+#anagram {
+    color: green;
+}
